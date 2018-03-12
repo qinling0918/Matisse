@@ -2,11 +2,12 @@
 
 ![Image](/image/banner.png)
 
+## 将原作者GildeEngine 和PicassoEngine  移除.避免图片加载器版本Api 不一致的尴尬,
+### 声明: 若有侵权,请告知,自会删掉该库  ,(ps :当作者将Glide版本问题解决后,也会删除该库)
 
 # Matisse
 
-## 将原作者GildeEngine 和PicassoEngine  移除.避免图片加载器版本Api 不一致的尴尬,
-### 声明: 若有侵权,请告知,自会删掉该库  ,(ps :当作者将Glide版本问题解决后,也会删除该库)
+
 [![Build Status](https://travis-ci.org/zhihu/Matisse.svg)](https://travis-ci.org/zhihu/Matisse)  ()
 Matisse is a well-designed local image and video selector for Android. You can  
 - Use it in Activity or Fragment
