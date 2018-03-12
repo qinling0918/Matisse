@@ -32,8 +32,10 @@ repositories {
 dependencies {
     原作者库
     compile 'com.zhihu.android:matisse:0.4.3'
-    删除过GildeEngine 和PisccoEngine 的库
-    compile 'com.tsinling.matisse:matisse:1.0.0'
+    
+    [ ![Download](https://api.bintray.com/packages/tsinling/maven/matisse/images/download.svg?version=1.0.1) ](https://bintray.com/tsinling/maven/matisse/1.0.1/link)
+    删除过GildeEngine 和PisccoEngine 的库  
+    compile 'com.tsinling.matisse:matisse:1.0.1'
 }
 ```
 
