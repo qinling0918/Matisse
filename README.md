@@ -38,7 +38,9 @@ dependencies {
 删除过GildeEngine 和PisccoEngine 的库  
 repositories {
     jcenter()
-    maven { url "https://dl.bintray.com/tsinling/maven" }
+    // Failed to resolve: com.tsinling.matisse:matisse:1.0.1
+     若找不到,则需要添加
+    maven { url "https://dl.bintray.com/tsinling/maven" }
 }
 
 dependencies {
