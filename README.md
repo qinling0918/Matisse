@@ -21,6 +21,7 @@ Matisse is a well-designed local image and video selector for Android. You can �
 |:------------------------------:|:---------------------------------:|:--------------------------------:|
 |![](image/screenshot_zhihu.png) | ![](image/screenshot_dracula.png) | ![](image/screenshot_preview.png)|
 
+ [ ![Download](https://api.bintray.com/packages/tsinling/maven/matisse/images/download.svg?version=1.0.1) ](https://bintray.com/tsinling/maven/matisse/1.0.1/link)
 ## Download
 Gradle:
 
@@ -33,7 +34,7 @@ dependencies {
     原作者库
     compile 'com.zhihu.android:matisse:0.4.3'
     
-    [ ![Download](https://api.bintray.com/packages/tsinling/maven/matisse/images/download.svg?version=1.0.1) ](https://bintray.com/tsinling/maven/matisse/1.0.1/link)
+   
     删除过GildeEngine 和PisccoEngine 的库  
     compile 'com.tsinling.matisse:matisse:1.0.1'
 }
