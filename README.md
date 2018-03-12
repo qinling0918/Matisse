@@ -36,7 +36,7 @@ dependencies {
 Check out [Matisse releases](https://github.com/zhihu/Matisse/releases) to see more unstable versions.
 
 ## ProGuard
-####原作者的库的混淆
+####  原作者的库的混淆
 
 If you use [Glide](https://github.com/bumptech/glide) as your image engine, add rules as Glide's README says.  
 And add extra rule:
@@ -51,8 +51,10 @@ And add extra rule:
 ```
 **Attention**: The above progurad rules are correct.
 
-####本库的混淆
-貌似就只有自己项目中对glide 或者对picasso等其他第三方的图片混淆了,不需要 dontwarn了, 
+#### 本库的混淆
+貌似不需要混淆
+
+硬要混淆的话,就只有自己项目中对glide 或者对picasso等其他第三方的图片混淆了,
 
 ## How do I use Matisse?
 #### Permission
