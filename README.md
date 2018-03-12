@@ -1,3 +1,6 @@
+将原作者GildeEngine 和PicassoEngine  移除.避免图片加载器版本Api 不一致的尴尬
+当作者将Glide版本问题解决后,会删掉该库
+
 ![Image](/image/banner.png)
 
 # Matisse
@@ -23,7 +26,10 @@ repositories {
 }
 
 dependencies {
-    compile 'com.zhihu.android:matisse:0.4.3'
+    原作者库
+    compile 'com.zhihu.android:matisse:0.4.3'
+    删除过glideEngine 和PisccoEngine 的库
+    compile 'com.tsinling.matisse:matisse:1.0.0'
 }
 ```
 
