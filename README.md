@@ -33,9 +33,15 @@ repositories {
 dependencies {
     原作者库
     compile 'com.zhihu.android:matisse:0.4.3'
-    
-   
-    删除过GildeEngine 和PisccoEngine 的库  
+}
+
+删除过GildeEngine 和PisccoEngine 的库  
+repositories {
+    jcenter()
+    maven { url "https://dl.bintray.com/tsinling/maven" }
+}
+
+dependencies {
     compile 'com.tsinling.matisse:matisse:1.0.1'
 }
 ```
